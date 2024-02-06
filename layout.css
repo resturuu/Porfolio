@@ -1,0 +1,668 @@
+body {
+     margin: 0;
+     padding: 0;
+     background-color: rgb(242, 245, 247);
+}
+
+
+
+/* navigasi */
+.nav {
+     margin-top: -1.5px;
+     width: 200%;
+     padding: 30px 200px 10px;
+     display: inline-flex;
+     position: fixed;
+     background-color: rgb(242, 245, 247);
+     border: none;
+     box-shadow: 3px 7px 10px rgb(242, 245, 247);
+}
+
+.nav img {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+}
+
+.link h2 a {
+     font-size: 30px;
+     color: #090909;
+}
+
+hr {
+     
+     margin-top: -10px;
+     margin-left: 15px;
+}
+
+.link a {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: #000000a9;
+     font-weight: bold;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+   }
+
+.link a:hover {
+     color: #3d48b0b1;
+     animation-play-state: running;
+}
+
+
+
+/* content home */
+.home {
+     max-width: 100%;
+     padding: 0 200px;
+     padding-top: 200px;
+}
+
+
+/* judul di atas content */
+.judulpagehome {
+     font-size: 30px;
+     font-weight: 450;
+     color: #3d48b0b1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.judulpage {
+     font-size: 30px;
+     font-weight: 450;
+     color: #3d48b0b1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.judulskils{
+          font-size: 30px;
+          font-weight: 450;
+          color: #3d48b0b1;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+     
+}
+
+.judulproject {
+     font-size: 30px;
+     font-weight: 450;
+     color: #3d48b0b1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/* end judul page */
+
+
+.judulproject {
+     font-size: 30px;
+     font-weight: 450;
+     color: #3d48b0b1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: -70px;
+     margin-left: 110px;
+}
+
+.chome {
+     border: none;
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.100);
+     padding: 10px 30px;
+     background-color: white;
+     border-radius: 10px;
+}
+
+.judul {
+     display: inline-flex;
+}
+
+.judul img {
+     margin-right: 20px;
+     margin-top: 10px;
+     width: 60px;
+     height: 60px;
+}
+
+.judul p {
+     font-size: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.jartikel {
+     font-size: 35px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.findme {
+     text-decoration: none;
+     font-size: 25px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.findme a {
+     text-decoration: none;
+}
+
+.cp {
+     margin-top: 60px;
+     margin-bottom: 60px;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* project */
+/* 1 dan 3 */
+.art {
+     max-width: 100%;
+     padding: 0 200px;
+     padding-top: 20px;
+     
+}
+.cart {
+     padding: 20px 30px;
+     background-color: white;
+     border-radius: 10px;
+     border: none;
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.100);
+
+}
+
+.contjudul {
+     display: inline-flex;
+}
+
+.contjudul img {
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+     width: 230px;
+     height: 230px;
+     border-radius: 10px;
+     margin-right: 50px;
+}
+
+
+.juddesk {
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+
+.juddesk a {
+     font-size: 17px;
+     text-decoration: none;
+}
+
+/* 2 */
+.art2 {
+     max-width: 100%;
+     padding: 0 200px;
+     padding-top: 20px;
+}
+.cart2 {
+     padding: 20px 30px;
+     background-color: white;
+     border-radius: 10px;
+     border: none;
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.100);
+}
+
+.contjudul2 {
+     display: inline-flex;
+}
+
+.contjudul2 img {
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+     width: 230px;
+     height: 230px;
+     border-radius: 10px;
+     margin-left: 40px;
+}
+
+
+.juddesk2 {
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+}
+
+.juddesk2 a {
+     font-size: 17px;
+     text-decoration: none;
+}
+
+/* skils */
+.bgskils {
+      
+          max-width: 100%;
+          padding: 0 200px;
+          padding-top: 65px;
+          
+}
+
+.contskils {
+     display: inline-flex;
+}
+
+
+/* icon  */
+.icon {
+     display: grid;
+     margin-right: 30px;
+}
+
+
+.icon img {
+     
+     width: 75px;
+     margin-top: 12.5px;
+}
+
+
+.icon img:hover {
+     width: 79px;
+}
+
+
+/* project */
+.project {
+     display: flex;
+     overflow-x: scroll;
+     scroll-snap-type: x mandatory;
+     -webkit-overflow-scrolling: touch; /* for smooth scrolling on mobile devices */
+
+   }
+   
+   .project img {
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+     border-radius: 5px;
+     margin: 5px;
+     width: 100%;
+     scroll-snap-align: start;
+     scroll-snap-stop: always;
+   }
+
+.contskils {
+     padding: 0px 50px 50px 0px;
+}
+
+
+.jmobile {
+     display: none;
+}
+
+.jmobileart {
+     display: none;
+}
+
+/* contact */
+.cf {
+     margin-bottom: 20px;
+     max-width: 100%;
+     padding: 0 200px;
+     padding-top: 65px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.form-container {
+     
+     background-color: #ffffff;
+     padding: 2rem;
+     border-radius: 5px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     max-width: 400px;
+     width: 100%;
+ }
+ 
+ .form-title {
+     font-weight: bold;
+     color: #3d48b0b1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-align: center;
+     margin-bottom: 1.5rem;
+ }
+ 
+ label {
+     display: block;
+     margin-bottom: 0.5rem;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ input,
+ textarea {
+     width: 95%;
+     padding: 0.5rem;
+     margin-bottom: 1.5rem;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     background-color: #e5e5e5cb;
+
+
+ }
+ 
+ textarea {
+     resize: vertical;
+ }
+ 
+ button {
+     background-color: #e5e5e5;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-weight: bold;
+     color: #3d48b0b1;
+     padding: 0.5rem 1rem;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+     width: 100%;
+ }
+ 
+ button:hover {
+     background-color: #0056b3;
+     box-shadow: 0 0 20px #0163cbaf;
+
+     color: white;
+ }
+ 
+ #message {
+     color: #001affb1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     margin-top: 1rem;
+     text-align: center;
+     color: #333;
+     padding: 1rem;
+ }
+
+/* styles for mobile devices */
+
+@media (max-width: 767px) {
+     body {
+          margin: 0;
+          padding: 0;
+          background-color: rgb(242, 245, 247);
+          font-size: 14px; /* Ubah ukuran teks utama */
+      }
+      
+/* navigasi */
+      .nav {
+          width: 1000px; /* Ubah lebar navigasi */
+          padding: 20px; /* Ubah padding navigasi */
+          display: inline-flex;
+          position: fixed;
+          background-color: rgb(242, 245, 247);
+          border: none;
+          box-shadow: 3px 7px 10px rgb(242, 245, 247);
+      }
+      
+      .nav img {
+          width: 80px;
+          height: 80px;
+          border-radius: 50%;
+      }
+      
+      hr {
+          margin-top: -10px;
+          margin-left: 10px;
+          
+      }
+      
+      .link h2 a {
+          font-size: 20px;
+          color: #090909;
+      }
+      
+      .link a {
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          color: #000000a9;
+          font-weight: bold;
+          text-align: center;
+          padding: 10px;
+          text-decoration: none;
+          font-size: 14px;
+      }
+      
+      .link a:hover {
+          color: #09090981;
+          animation-play-state: running;
+      }
+     
+/* content home */
+.home {
+     max-width: 1200px;
+     padding: 20px;
+     padding-top: 150px;
+ }
+ 
+ .judulpage {
+     font-size: 30px;
+     font-weight: 450;
+     color: lightslategrey;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .chome {
+     border: none;
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.100);
+     padding: 20px;
+     background-color: white;
+     border-radius: 10px;
+ }
+ 
+ .judul {
+     display: inline-flex;
+ }
+ 
+ .judul img {
+     margin-right: 20px;
+     margin-top: 10px;
+     width: 50px;
+     height: 50px;
+ }
+ 
+ .judul p {
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .jartikel {
+     font-size: 16px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .findme {
+     font-size: 14px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.med  {
+     text-decoration: none;
+
+}
+ 
+ .cp {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ /* art */
+ /* 1 dan 3 */
+ .art {
+     max-width: 1200px;
+     padding: 20px;
+     padding-top: 10px;
+ }
+ 
+ .cart {
+     padding: 20px;
+     background-color: white;
+     border-radius: 10px;
+     border: none;
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.100);
+     align-items: center;
+
+ }
+ 
+ .contjudul {
+     display: block;
+ } .contjudul2 {
+     display: block;
+ }
+
+ .contjudul img {
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+     width: 150px;
+     height: 150px;
+     border-radius: 10%;
+     margin-bottom: 10px;
+     text-align: center;
+ }
+ 
+ .juddesk {
+     font-size: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ 
+ .juddesk a {
+     font-size: 16px;
+ }
+ 
+ /* 2 */
+ .art2 {
+     max-width: 1200px;
+     padding: 20px;
+     padding-top: 10px;
+ }
+ 
+ .cart2 {
+     padding: 20px;
+     background-color: white;
+     border-radius: 10px;
+     border: none;
+     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.100);
+ }
+ 
+ 
+ .contjudul2 img {
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.503);
+     width: 150px;
+     height: 150px;
+     border-radius: 10%;
+     margin-left: -5px;
+ }
+ 
+ .juddesk2 {
+     font-size: 20px;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+     }
+     
+     .juddesk2 a {
+          font-size:16;
+     }
+
+
+/* skils */
+
+
+     /* jangan di ubah padingnya */
+     
+.bgskils {
+     padding: 0px;
+   }
+ 
+   .contskils {
+     padding: 50px 20px 50px 20px;
+   }
+ 
+   .icon {
+     margin-right: 15px;
+   }
+ 
+   .icon img {
+     width: 35px;
+     height: 35px;
+     margin-top: 10px;
+   }
+ 
+   .icon img:hover {
+     width: 37px;
+     height: 37px;
+   }
+ 
+   .project {
+     margin-top: 50px;
+     -webkit-overflow-scrolling: touch; /* for smooth scrolling on mobile devices */
+   }
+
+   
+
+   .project img {
+     margin: 5px 30px;
+     width: 100%;
+     height: 85%;
+   }
+   
+/* judul di atas content */
+.judulpagehome {
+display: none;
+}
+
+.judulpage {
+     font-size: 20px;
+     font-weight: 450;
+     color: #3d48b0b1;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.judulskils{
+          font-size: 20px;
+          font-weight: 450;
+          color: #3d48b0b1;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding-left: 80px;
+          margin-bottom: -90px;
+     
+}
+
+
+/* CONTACT */
+.cf {
+     padding: 0;
+     padding-top: 1rem;
+     display: flex;
+     flex-direction: column;
+   }
+ 
+   .form-container {
+     margin: 20px;
+     width: 320px;
+     padding: 1rem;
+   }
+ 
+   form input,
+   form textarea {
+     width: 302px;
+   }
+ 
+   #message {
+     width: 350px;
+     max-width: 100%;
+     word-wrap: break-word;
+     order: 2;
+     margin-top: 1rem;
+   }
+ 
+   form {
+     order: 1;
+   }
+   /* style harus di atas kurung kurawal terakhir */
+}
